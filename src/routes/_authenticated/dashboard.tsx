@@ -118,7 +118,11 @@ function Dashboard() {
           ].map((s) => (
             <div
               key={s.label}
+<<<<<<< HEAD
+              className="glass-panel rounded-3xl p-6 shadow-lg shadow-white/10"
+=======
               className="glass-panel rounded-3xl p-6 shadow-lg shadow-brand/5"
+>>>>>>> 6daf45bd9c7f394adad735bf241b3ff781303b7a
             >
               <div className="text-xs font-medium uppercase tracking-widest text-muted-foreground">
                 {s.label}
@@ -132,7 +136,11 @@ function Dashboard() {
           <Link
             to="/studio"
             search={{}}
+<<<<<<< HEAD
+            className="inline-flex rounded-2xl bg-brand px-5 py-3 text-sm font-semibold text-brand-foreground shadow-md shadow-white/10 transition hover:bg-brand/90"
+=======
             className="inline-flex rounded-2xl bg-brand px-5 py-3 text-sm font-semibold text-brand-foreground shadow-md shadow-brand/30 transition hover:bg-brand/90"
+>>>>>>> 6daf45bd9c7f394adad735bf241b3ff781303b7a
           >
             Yangi yaratish
           </Link>

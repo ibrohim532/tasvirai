@@ -313,7 +313,11 @@ function Studio() {
             </div>
             <div
               style={{ aspectRatio: ratio.replace(":", " / ") }}
+<<<<<<< HEAD
+              className={`relative mx-auto grid max-h-[560px] w-full place-items-center overflow-hidden rounded-2xl border border-glass-border bg-muted ${busy && !preview ? "shimmer" : ""}`}
+=======
               className={`relative mx-auto grid max-h-[560px] w-full place-items-center overflow-hidden rounded-2xl border border-glass-border bg-black/30 ${busy && !preview ? "shimmer" : ""}`}
+>>>>>>> 6daf45bd9c7f394adad735bf241b3ff781303b7a
             >
               {preview ? (
                 previewIsVideo ? (

@@ -5,6 +5,10 @@ import { toast } from "sonner";
 import { supabase } from "@/integrations/supabase/client";
 import { useSession } from "@/hooks/useSession";
 import { Button } from "@/components/ui/button";
+<<<<<<< HEAD
+import { ThemeToggle } from "@/components/ui/themetoogle";
+=======
+>>>>>>> 6daf45bd9c7f394adad735bf241b3ff781303b7a
 
 type Mode = "login" | "signup"; 
 
@@ -152,6 +156,11 @@ function AuthPage() {
         <ArrowLeft className="size-4" />
       </Link>
 
+<<<<<<< HEAD
+      <ThemeToggle className="absolute right-5 top-6 z-10 sm:right-8 sm:top-8" />
+
+=======
+>>>>>>> 6daf45bd9c7f394adad735bf241b3ff781303b7a
       <section className="auth-rise relative z-10 w-full max-w-md">
         <div className="border border-auth-border bg-auth-surface px-6 py-7 shadow-2xl backdrop-blur-2xl sm:px-10 sm:py-9">
           <div className="text-center">

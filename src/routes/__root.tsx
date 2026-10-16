@@ -93,6 +93,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
     ],
+<<<<<<< HEAD
+    scripts: [
+      {
+        children:
+          "(function(){try{var t=localStorage.getItem('theme');document.documentElement.classList.toggle('dark',t!=='light');}catch(e){}})();",
+      },
+    ],
+=======
+>>>>>>> 6daf45bd9c7f394adad735bf241b3ff781303b7a
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
@@ -115,7 +124,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: ReactNode }) {
   return (
+<<<<<<< HEAD
+    <html lang="uz" className="dark" suppressHydrationWarning>
+=======
     <html lang="uz">
+>>>>>>> 6daf45bd9c7f394adad735bf241b3ff781303b7a
       <head>
         <HeadContent />
       </head>

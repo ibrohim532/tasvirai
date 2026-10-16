@@ -12,8 +12,11 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as AuthenticatedRouteRouteImport } from './routes/_authenticated/route'
 import { Route as AuthRouteImport } from './routes/auth'
+<<<<<<< HEAD
+=======
 import { Route as ImkoniyatlarRouteImport } from './routes/imkoniyatlar'
 import { Route as QandayRouteImport } from './routes/qanday'
+>>>>>>> 6daf45bd9c7f394adad735bf241b3ff781303b7a
 import { Route as AuthenticatedDashboardRouteImport } from './routes/_authenticated/dashboard'
 import { Route as AuthenticatedStudioRouteImport } from './routes/_authenticated/studio'
 import { Route as ApiGenerateImageRouteImport } from './routes/api/generate-image'
@@ -33,6 +36,8 @@ const AuthRoute = AuthRouteImport.update({
   path: '/auth',
   getParentRoute: () => rootRouteImport,
 } as any)
+<<<<<<< HEAD
+=======
 const ImkoniyatlarRoute = ImkoniyatlarRouteImport.update({
   id: '/imkoniyatlar',
   path: '/imkoniyatlar',
@@ -43,6 +48,7 @@ const QandayRoute = QandayRouteImport.update({
   path: '/qanday',
   getParentRoute: () => rootRouteImport,
 } as any)
+>>>>>>> 6daf45bd9c7f394adad735bf241b3ff781303b7a
 const AuthenticatedDashboardRoute = AuthenticatedDashboardRouteImport.update({
   id: '/dashboard',
   path: '/dashboard',
@@ -67,8 +73,11 @@ const ApiVideoRoute = ApiVideoRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/auth': typeof AuthRoute
+<<<<<<< HEAD
+=======
   '/imkoniyatlar': typeof ImkoniyatlarRoute
   '/qanday': typeof QandayRoute
+>>>>>>> 6daf45bd9c7f394adad735bf241b3ff781303b7a
   '/dashboard': typeof AuthenticatedDashboardRoute
   '/studio': typeof AuthenticatedStudioRoute
   '/api/generate-image': typeof ApiGenerateImageRoute
@@ -77,8 +86,11 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/auth': typeof AuthRoute
+<<<<<<< HEAD
+=======
   '/imkoniyatlar': typeof ImkoniyatlarRoute
   '/qanday': typeof QandayRoute
+>>>>>>> 6daf45bd9c7f394adad735bf241b3ff781303b7a
   '/dashboard': typeof AuthenticatedDashboardRoute
   '/studio': typeof AuthenticatedStudioRoute
   '/api/generate-image': typeof ApiGenerateImageRoute
@@ -89,8 +101,11 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/_authenticated': typeof AuthenticatedRouteRouteWithChildren
   '/auth': typeof AuthRoute
+<<<<<<< HEAD
+=======
   '/imkoniyatlar': typeof ImkoniyatlarRoute
   '/qanday': typeof QandayRoute
+>>>>>>> 6daf45bd9c7f394adad735bf241b3ff781303b7a
   '/_authenticated/dashboard': typeof AuthenticatedDashboardRoute
   '/_authenticated/studio': typeof AuthenticatedStudioRoute
   '/api/generate-image': typeof ApiGenerateImageRoute
@@ -101,8 +116,11 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/auth'
+<<<<<<< HEAD
+=======
     | '/imkoniyatlar'
     | '/qanday'
+>>>>>>> 6daf45bd9c7f394adad735bf241b3ff781303b7a
     | '/dashboard'
     | '/studio'
     | '/api/generate-image'
@@ -111,8 +129,11 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/auth'
+<<<<<<< HEAD
+=======
     | '/imkoniyatlar'
     | '/qanday'
+>>>>>>> 6daf45bd9c7f394adad735bf241b3ff781303b7a
     | '/dashboard'
     | '/studio'
     | '/api/generate-image'
@@ -122,8 +143,11 @@ export interface FileRouteTypes {
     | '/'
     | '/_authenticated'
     | '/auth'
+<<<<<<< HEAD
+=======
     | '/imkoniyatlar'
     | '/qanday'
+>>>>>>> 6daf45bd9c7f394adad735bf241b3ff781303b7a
     | '/_authenticated/dashboard'
     | '/_authenticated/studio'
     | '/api/generate-image'
@@ -134,8 +158,11 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AuthenticatedRouteRoute: typeof AuthenticatedRouteRouteWithChildren
   AuthRoute: typeof AuthRoute
+<<<<<<< HEAD
+=======
   ImkoniyatlarRoute: typeof ImkoniyatlarRoute
   QandayRoute: typeof QandayRoute
+>>>>>>> 6daf45bd9c7f394adad735bf241b3ff781303b7a
   ApiGenerateImageRoute: typeof ApiGenerateImageRoute
   ApiVideoRoute: typeof ApiVideoRoute
 }
@@ -163,6 +190,8 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AuthRouteImport
       parentRoute: typeof rootRouteImport
     }
+<<<<<<< HEAD
+=======
     '/imkoniyatlar': {
       id: '/imkoniyatlar'
       path: '/imkoniyatlar'
@@ -177,6 +206,7 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof QandayRouteImport
       parentRoute: typeof rootRouteImport
     }
+>>>>>>> 6daf45bd9c7f394adad735bf241b3ff781303b7a
     '/_authenticated/dashboard': {
       id: '/_authenticated/dashboard'
       path: '/dashboard'
@@ -225,8 +255,11 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AuthenticatedRouteRoute: AuthenticatedRouteRouteWithChildren,
   AuthRoute: AuthRoute,
+<<<<<<< HEAD
+=======
   ImkoniyatlarRoute: ImkoniyatlarRoute,
   QandayRoute: QandayRoute,
+>>>>>>> 6daf45bd9c7f394adad735bf241b3ff781303b7a
   ApiGenerateImageRoute: ApiGenerateImageRoute,
   ApiVideoRoute: ApiVideoRoute,
 }
