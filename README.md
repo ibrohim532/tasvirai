@@ -27,3 +27,7 @@ npm run dev
 - TypeScript
 - React
 - Tailwind CSS
+<<<<<<< HEAD
+=======
+# tasvirai
+>>>>>>> 0d4c5b7a3d0cdf9a457b4bad12b154d6c2b32c6c
